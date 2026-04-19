@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "name": "Central Park",
+    "latitude": 40.785091,
+    "longitude": -73.968285,
+    "description": "Iconic urban park in Manhattan.",
+    "category": "park",
+    "createdAt": "2026-04-20T00:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "name": "Empire State Building",
+    "latitude": 40.748817,
+    "longitude": -73.985428,
+    "description": "Famous Art Deco skyscraper with observatories.",
+    "category": "landmark",
+    "createdAt": "2026-04-20T00:00:00.000Z"
+  },
+  {
+    "id": "3",
+    "name": "Lombardi's Pizza",
+    "latitude": 40.720662,
+    "longitude": -73.997768,
+    "description": "Historic coal-oven pizzeria in NYC.",
+    "category": "restaurant",
+    "createdAt": "2026-04-20T00:00:00.000Z"
+  },
+  {
+    "id": "1776626864234",
+    "name": "pune",
+    "description": "test1",
+    "category": "restaurant",
+    "latitude": 18.52043,
+    "longitude": 73.856743,
+    "createdAt": "2026-04-19T19:27:44.234Z"
+  },
+  {
+    "id": "1776627992922",
+    "name": "mont claire",
+    "description": "office",
+    "category": "other",
+    "latitude": 18.5516,
+    "longitude": 73.795,
+    "createdAt": "2026-04-19T19:46:32.922Z"
+  }
+]
