@@ -1,28 +1,28 @@
 [
   {
     "id": "1",
-    "name": "Central Park",
-    "latitude": 40.785091,
-    "longitude": -73.968285,
-    "description": "Iconic urban park in Manhattan.",
+    "name": "Saras Baug",
+    "latitude": 18.5039,
+    "longitude": 73.8521,
+    "description": "Historic garden and temple area in Pune.",
     "category": "park",
     "createdAt": "2026-04-20T00:00:00.000Z"
   },
   {
     "id": "2",
-    "name": "Empire State Building",
-    "latitude": 40.748817,
-    "longitude": -73.985428,
-    "description": "Famous Art Deco skyscraper with observatories.",
+    "name": "Gateway of India",
+    "latitude": 18.922,
+    "longitude": 72.8347,
+    "description": "Iconic waterfront monument in Mumbai.",
     "category": "landmark",
     "createdAt": "2026-04-20T00:00:00.000Z"
   },
   {
     "id": "3",
-    "name": "Lombardi's Pizza",
-    "latitude": 40.720662,
-    "longitude": -73.997768,
-    "description": "Historic coal-oven pizzeria in NYC.",
+    "name": "Mischief Dining Bar",
+    "latitude": 18.5296,
+    "longitude": 73.8772,
+    "description": "Popular restaurant in Koregaon Park, Pune.",
     "category": "restaurant",
     "createdAt": "2026-04-20T00:00:00.000Z"
   },
@@ -37,11 +37,11 @@
   },
   {
     "id": "1776627992922",
-    "name": "mont claire",
-    "description": "office",
-    "category": "other",
-    "latitude": 18.5516,
-    "longitude": 73.795,
+    "name": "Shaniwar Wada",
+    "description": "Historic fortification in Pune.",
+    "category": "landmark",
+    "latitude": 18.5196,
+    "longitude": 73.8553,
     "createdAt": "2026-04-19T19:46:32.922Z"
   }
 ]
