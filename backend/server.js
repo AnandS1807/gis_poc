@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const locationRoutes = require("./routes/locations");
+const { testConnection } = require("./config/db");
 
 const app = express();
 const PORT = 5000;
@@ -19,6 +20,20 @@ app.use((err, req, res, next) => {
   res.status(500).json({ message: "Something went wrong on the server." });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server listening on http://localhost:${PORT}`);
-});
+if (require.main === module) {
+  (async () => {
+    try {
+      const postgisVersion = await testConnection();
+      app.listen(PORT, () => {
+        console.log(`Server listening on http://localhost:${PORT}`);
+        console.log(`Connected to PostGIS: ${postgisVersion}`);
+      });
+    } catch (error) {
+      console.error("Failed to connect to PostgreSQL/PostGIS.");
+      console.error(error.message);
+      process.exit(1);
+    }
+  })();
+}
+
+module.exports = app;
